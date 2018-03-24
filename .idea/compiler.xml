@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="spring-security-app" target="1.5" />
-      <module name="spring-security-core" target="1.5" />
-      <module name="spring-security-demo" target="1.5" />
-      <module name="spring-security-template" target="1.5" />
-      <module name="spring-security-web" target="1.5" />
+      <module name="spring-security-app" target="1.8" />
+      <module name="spring-security-core" target="1.8" />
+      <module name="spring-security-demo" target="1.8" />
+      <module name="spring-security-template" target="1.8" />
+      <module name="spring-security-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

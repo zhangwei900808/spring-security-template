@@ -11,5 +11,16 @@
     <packaging>jar</packaging>
     <artifactId>spring-security-web</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>spring.security.template</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>${spring-security-template-version}</version>
+        </dependency>
+        <!--集群下的session管理-->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
+        </dependency>
+    </dependencies>
 </project>

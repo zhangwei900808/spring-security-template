@@ -11,5 +11,11 @@
     <packaging>jar</packaging>
     <artifactId>spring-security-app</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>spring.security.template</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>${spring-security-template-version}</version>
+        </dependency>
+    </dependencies>
 </project>
